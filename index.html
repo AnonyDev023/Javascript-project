@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="./index.css">
+    <title>Document</title>
+</head>
+<body>
+    <section class="project-main-section">
+        <div class="form-holder">
+            <div class="select-form-input">
+                <select id="select-form-input-id">
+                    <option value="text">Text</option>
+                    <option value="number">Number</option>
+                    <option value="email">Email</option>
+                    <option value="radio">Radio</option>
+                    <option value="checkbox">Checkbox</option>
+                    <option value="select">Select</option>
+                    <option value="submit">Submit</option>
+                </select>
+                <button onclick="addthatinput();" id="main-add-btn-id">Add</button>
+            </div>
+            <div class="display-initial-form-holder">
+                <div class="display-initial-form-holder-sub" id="initial-form-holder-id">
+
+                </div>
+            </div>
+        </div>
+        <div class="form-input-display-div">
+            <div class="form-input-display-left-div">
+                <form id="input-form-main-id" onsubmit="return false">
+
+                </form>
+            </div>
+            <div class="form-input-display-right-div" id="display-input-data-right-div-id">
+                
+            </div>
+        </div>
+    </section>
+    <script type="text/javascript" src="./index.js"></script>
+</body>
+</html>

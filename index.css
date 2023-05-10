@@ -1,0 +1,114 @@
+body{
+    margin: 0px;
+}
+.project-main-section{
+    /* height: 100vh; */
+    padding: 100px 0px;
+    background-color: #26004d;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.form-holder{
+    width: 70%;
+    display: flex;
+    justify-content: space-between;
+}
+.display-initial-form-holder{
+    display: flex;
+    flex-direction: column;
+    background-color: blueviolet;
+    width: 80%;
+    padding: 20px;
+}
+.display-initial-form-holder-sub{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+.form-initial-input-holder{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+.remove-btn-css{
+    height: 20px;
+    width: 20px;
+    padding: 10px;
+    background-color: white;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+}
+.adding-class-for-multiple-input{
+    display: flex;
+    flex-direction: column;
+}
+.option-holding-div{
+    display: flex;
+}
+.form-input-display-div{
+    width: 70%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+.form-input-display-left-div,.form-input-display-right-div{
+    width: 45%;
+    padding: 20px;
+    background-color: blueviolet;
+}
+.form-input-display-right-div,.remove-div-css{
+    display: flex;
+    flex-direction: column;
+}
+.entry-holding-div-css{
+    display: flex;
+    justify-content: space-between;
+}
+select{
+    padding: 10px;
+    border: none;
+}
+#main-add-btn-id{
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+    background-color: violet;
+    color: white;
+}
+input{
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+}
+button{
+    margin: 0px 5px;
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+    background-color: violet;
+    color: white;
+}
+input[type="submit"]{
+    background-color: #26004d;
+    border: none;
+    color: white;
+}
+.entry-holding-div-css{
+    color: white;
+}
+
+@media screen and (min-width : 320px) and (max-width: 768px){
+    .form-holder, .form-input-display-div{
+        width: 95%;
+        flex-direction: column;
+    }
+    .select-form-input{
+        margin: 10px 0px;
+    }
+    .form-input-display-left-div, .form-input-display-right-div, .display-initial-form-holder{
+        width: initial;
+    }
+}
